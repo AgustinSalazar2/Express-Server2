@@ -33,6 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Rutas
 app.use(require('./routes/users.routes'));
+app.use(require('./routes/tasks.routes'));
 
 
 //Iniciar servidor
